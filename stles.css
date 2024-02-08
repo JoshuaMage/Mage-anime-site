@@ -1,0 +1,270 @@
+
+body {
+    background-color: #1A120B;
+}
+h1 {
+    padding-right: 40px;
+    color: #FE7A36;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}   
+ul {
+    list-style: none;
+    background-color: #1F1717;
+}
+
+
+ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+
+}
+
+ul li a {
+    display: block;
+    padding: 10px 30px;
+    color: #FFF6E9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown li a{
+    position: relative;
+   font-size: 12px;
+   width: 100%;
+   font-weight: bold;
+   color:#EEEDED;
+   font-weight: bold;
+   right: 25px;
+}
+
+.dropdown li a:hover {
+    font-weight: bold;
+    font-size: 15px;
+    color: #FE7A36;
+    width: 100%;
+}
+
+ul li ul.dropdown {
+width: 100%;
+background-color: transparent;
+position: absolute;
+z-index: 1;
+display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block; 
+}
+
+li .btn-log {
+   position: relative;
+    left: 30px;
+    padding: 2px; 
+    border-radius: 5px;  
+    transition: .5s;      
+}
+
+li .btn-log:hover {
+    color: white;
+    background: blue;    
+}
+
+.middle-container {
+    height: 100px;
+    width: 100%;
+    
+}
+
+.middle-container, h2, p {
+    color: white;
+    position: relative;
+    padding: 0px;
+    top: 10px;
+}
+
+.selector ul li {
+    background-color:transparent;
+    transition: .5s;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.selector ul li:hover {
+    background-color: #192655;
+    font-size: 1rem;
+    box-shadow: 2px 2px #F3F8FF;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.card li h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.card li h4 a:hover {
+    color: #FE7A36;
+    
+
+}
+
+.card li button {
+    position: relative;
+    top: -45px;
+    padding: 3px;
+    font-family: 'Protest Revolution', sans-serif;
+    border-radius: 5px;
+    transition: .7s;
+    
+    
+
+}
+
+.card li button:hover {
+    background-color: #192655;
+    color:#F3F8FF;
+    box-shadow: 1px 2px 3px  black;
+    transform: translate(-4px,-4px);
+    
+
+}
+
+
+.anime-picture {
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px;
+}
+
+.Magefooter {
+    color: wheat;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .fa-Twitter {
+    background-color: white;
+    color: blue;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .fa-Instagram {
+    background-color: #B70404;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .fa-Youtube {
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .social-media .fa:hover {
+    font-size: 15px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: #211717;
+  }
+
+  .Magefooter h4 {
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .Magefooter button {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    transition: .5s;
+  }
+
+  .Magefooter button:hover {
+    color: white;
+    background-color: #FE7A36;
+    font-size: 18px;
+  }
+
+  .Magefooter h5  {
+    color: white;
+    padding-top: 10px;
+    
+  }
+
+  .Magefooter h5 a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+
+  .Magefooter h5 a:hover {
+   background: white;
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .contact-us li {
+    display:list-item;
+    background-color: #211717;
+  }
+
+  .contact-us li:hover {
+    font-weight: bold;
+  }
