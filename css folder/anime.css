@@ -12,8 +12,111 @@ h1 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-
 }   
+
+.Popular-anime {
+  position: relative;
+  border-radius: 10px;
+  padding: 5px;
+  padding-top: 20px;
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  background: #4F4A45;
+  left: 50px;
+  top: 50px;
+
+}
+
+.Popular-anime:hover {
+ background-color: #6C5F5B;
+}
+
+.current-anime {
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  height: 30px;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  background: #4F4A45;
+  top: -100px;
+  left: 43%;
+
+}
+
+.current-anime:hover {
+ background-color: #6C5F5B;
+}
+
+
+.winter-list {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+  color: white;
+}
+
+
+.cardfirst {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.cardfirst li h4 a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.cardfirst li h4 a:hover {
+  color: #FE7A36;
+  
+
+}
+
+.cardfirst li button {
+  position: relative;
+  top: -45px;
+  padding: 3px;
+  font-family: 'Protest Revolution', sans-serif;
+  border-radius: 5px;
+  transition: .7s;
+  
+  
+
+}
+
+.cardfirst li button:hover {
+  background-color: #192655;
+  color:#F3F8FF;
+  box-shadow: 1px 2px 3px  black;
+  transform: translate(-4px,-4px);
+  
+
+}
+
+
+
 ul {
     list-style: none;
     background-color: #1F1717;
@@ -133,12 +236,13 @@ input:hover {
 .card {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px);
     gap: 10px;
     text-align: center;
     color: white;
     text-decoration: none;
     list-style: none;
+    height: 750px;
     
 }
 
@@ -171,8 +275,6 @@ input:hover {
     color:#F3F8FF;
     box-shadow: 1px 2px 3px  black;
     transform: translate(-4px,-4px);
-    
-
 }
 
 
@@ -180,6 +282,118 @@ input:hover {
     border-radius: 20px;
     background: transparent;
     padding: 10px;
+}
+
+
+.fourt-container {
+display: flex;
+gap: 20px;
+background-color: #4F4A45;
+}
+
+.fourt-container .card {
+display: grid;
+grid-template-columns: repeat(3,.7fr);
+grid-template-rows: repeat(2,1fr);
+padding-bottom: 50px;
+height: 500px;
+}
+
+
+.fourt-container .details h3 {
+  position: relative;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 30px;
+  font-size: 30px;
+  left: 40px;
+  top: 10px;
+}
+
+.fourt-container .details p {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+  font-size: 15px;
+  left: 40px;
+  top: 10px;
+}
+
+
+.fourt-container .details .button-select{
+    position: relative; 
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 2px;
+    left: 40px;
+}
+
+.fourt-container .details .button-select .blue-select {
+  color: white;
+  text-decoration: none;
+  background-color: #11009E;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourt-container .details .button-select .blue-select:hover {
+  color: #11009E;
+  background-color: white;
+  font-weight: bold;
+}
+
+.fourt-container .details .button-select .orange-select {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #FE7A36;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.fourt-container .details .button-select .orange-select:hover {
+  color: #FE7A36;
+  background-color: white;
+  font-weight: bold;
+}
+
+
+.Magefooter h4 {
+  padding-bottom: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: -100 px;
+}
+
+.new-list {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+.newanime .card {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3,1fr); 
+  width: 80%;
+  gap: 20px;
+  height: 600px;
+  left: 100px;
+
 }
 
 .Magefooter {
@@ -231,6 +445,7 @@ input:hover {
     font-size: 15px;
   }
 
+
   footer {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -241,13 +456,7 @@ input:hover {
     background-color: #211717;
   }
 
-  .Magefooter h4 {
-    padding-bottom: 10px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 18px;
-    width: 100%;
-  }
+ 
 
   .Magefooter button {
     padding: 10px;
